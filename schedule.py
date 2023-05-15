@@ -80,7 +80,7 @@ while cont == True:
     
     #adds an entry to the database
     if action == "add":
-        date = input("what date will this event take place?") #date should be in the format yyyy-mm-dd to properly interact with the program
+        date = input("what date will this event take place? (yyyy-mm-dd)") #date should be in the format yyyy-mm-dd to properly interact with the program
         time = input("what time will it happen?")
         event = input("what is the event?")
         calendar.add_event(date,time,event)
